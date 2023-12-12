@@ -22,7 +22,24 @@ The code uses the following main components:
 - `scipy`
 - `matplotlib`
 
-Install dependencies using:
+## Install dependencies using:
 
-```bash
 pip install numpy pandas yfinance statsmodels scipy matplotlib
+
+## Usage
+1. Clone the repoitory:
+git clone https://github.com/your-username/pairs-trading-strategy.git
+cd pairs-trading-strategy
+
+2. Run the python script:
+python pairs_trading_strategy.py
+
+## Parameters
+
+Adjust the strategy parameters in the script, including:
+
+stocks: List of stock tickers.
+start and end: Start and end dates for historical data.
+fee: Transaction fee rate.
+window: Size of the rolling window.
+t_threshold: Threshold for the cointegration test statistic.
